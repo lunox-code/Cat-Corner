@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fff8ef" />
+    <meta name="description" content="A cheerful little corner for cat people: meet cats, learn care basics, and discover fun feline facts." />
+    <title>Cat Corner — A happy place for cat people</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Cat Corner home"><span class="brand-mark">🐾</span> cat corner</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation"><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="#cats">Meet the cats</a><a href="#care">Care guide</a><a href="#facts">Fun facts</a>
+      </nav>
+      <a class="header-button" href="#care">Cat care basics <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section id="home" class="hero page-wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tiny-paw">✿</span> A HAPPY PLACE FOR CAT PEOPLE</p>
+          <h1>More purrs.<br /><span>More curious.</span></h1>
+          <p class="hero-text">Welcome to Cat Corner, where we celebrate our feline friends and share the little things that help them feel safe, playful, and loved.</p>
+          <div class="hero-actions"><a class="button button-dark" href="#cats">Meet the cats <span aria-hidden="true">↓</span></a><a class="text-link" href="#care">Explore the care guide <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-note"><span class="note-emoji">🐈</span><span>Small paws, big personalities.</span></div>
+        </div>
+        <div class="hero-art">
+          <div class="sun-shape"></div><div class="art-spark spark-a">✦</div><div class="art-spark spark-b">✳</div>
+          <div class="cat-portrait"><img class="hero-cat-photo" src="images/hero-kitten.jpeg" alt="A tiny orange kitten looking curiously at the camera" /><span class="portrait-heart">♥</span></div>
+          <div class="floating-note"><span>mrrp!</span><span>♡</span></div>
+          <p class="art-caption">PROFESSIONAL NAPPER<br />AMATEUR BOX INSPECTOR</p>
+        </div>
+        <div class="scroll-note"><span>01</span><span class="scroll-line"></span><span>SCROLL FOR MORE</span></div>
+      </section>
+
+      <section id="cats" class="cats-section section-pad">
+        <div class="page-wrap">
+          <div class="section-heading"><div><p class="eyebrow">THE NEIGHBORHOOD</p><h2>Meet the cats<span class="orange">.</span></h2></div><p class="section-intro">Every cat has their own little world. Here are three imaginary neighbors to get us started.</p></div>
+          <div class="cat-grid">
+            <article class="cat-card"><div class="cat-photo cat-peach"><img src="images/marmalade.jpeg" alt="A ginger cat posing with a raised paw" /><span class="cat-number">01</span></div><div class="cat-card-copy"><p class="cat-trait">THE SUNBEAM SEEKER</p><h3>Marmalade</h3><p>Likes warm windowsills, gentle company, and being told she's lovely.</p><div class="cat-tags"><span>Sunny</span><span>Snuggly</span></div></div></article>
+            <article class="cat-card"><div class="cat-photo cat-lilac"><img src="images/fig.jpeg" alt="A tabby cat wearing dark sunglasses" /><span class="cat-number">02</span></div><div class="cat-card-copy"><p class="cat-trait">THE MIDNIGHT EXPLORER</p><h3>Fig</h3><p>Investigates every paper bag and knows exactly where the treats live.</p><div class="cat-tags"><span>Curious</span><span>Quick paws</span></div></div></article>
+            <article class="cat-card"><div class="cat-photo cat-green"><img src="images/peaches.jpeg" alt="A tabby cat wearing a cap and sweater" /><span class="cat-number">03</span></div><div class="cat-card-copy"><p class="cat-trait">THE GENTLE GREETER</p><h3>Peaches</h3><p>Welcomes visitors with a tiny meow and a very important tail hello.</p><div class="cat-tags"><span>Friendly</span><span>Chirpy</span></div></div></article>
+          </div>
+          <p class="sample-note">Marmalade, Fig, and Peaches are starter names for the cats in these photos. You can rename them to match the cats you picked.</p>
+          <div class="moment-gallery" aria-label="More cat photos"><figure><img src="images/cat-yawn.jpeg" alt="A ginger cat mid-yawn with one paw raised" /><figcaption>Big yawn, bigger feelings.</figcaption></figure><figure><img src="images/kitten-heart.jpeg" alt="A tabby kitten reaching toward the camera beside a pink heart" /><figcaption>A tiny wave hello.</figcaption></figure></div>
+        </div>
+      </section>
+
+      <section id="care" class="care-section section-pad"><div class="page-wrap care-grid">
+        <div class="care-art"><div class="care-circle"><span class="big-paw">🐾</span><span class="care-sticker">KINDNESS<br />COUNTS</span></div></div>
+        <div class="care-copy"><p class="eyebrow">A FEW GOOD HABITS</p><h2>Little things<br />cats <span class="italic">need.</span></h2><p class="care-intro">A happy cat needs more than cuddles. Start with a safe home, a little patience, and the basics below.</p>
+          <ul class="care-list"><li><span class="care-icon">01</span><div><strong>Fresh water</strong><p>Keep a clean bowl available and refresh it each day.</p></div></li><li><span class="care-icon">02</span><div><strong>A quiet safe spot</strong><p>Give your cat a cozy place where they can rest undisturbed.</p></div></li><li><span class="care-icon">03</span><div><strong>Play and attention</strong><p>Short play sessions and gentle company help cats stay engaged.</p></div></li></ul>
+          <p class="care-reminder">For health questions, check with a veterinarian who knows your cat.</p>
+        </div>
+      </div></section>
+
+      <section id="facts" class="facts-section section-pad"><div class="page-wrap facts-inner"><div class="facts-copy"><p class="eyebrow">A TINY CAT FACT</p><h2>Curious cats<br />keep us <span class="italic">guessing.</span></h2><p class="fact-text" id="fact-text" aria-live="polite">Cats use their whiskers to sense nearby spaces and objects.</p><button class="button button-light" id="fact-button" type="button">Tell me another <span aria-hidden="true">↗</span></button></div><div class="fact-doodle" aria-hidden="true"><img src="images/kitten-heart.jpeg" alt="" /><span>?</span></div></div></section>
+    </main>
+
+    <footer class="site-footer page-wrap"><a class="brand" href="#home"><span class="brand-mark">🐾</span> cat corner</a><p>Made for curious cat people.</p><p>© <span id="year">2026</span> Cat Corner</p></footer>
+  </body>
+</html>
